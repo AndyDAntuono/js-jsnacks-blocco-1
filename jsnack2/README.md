@@ -5,4 +5,4 @@ Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
 SOLUZIONE
 - creo un array vuoto
 - chiedo per sei volte, tramite prompt, all'utente di un inserire un numero
-- se uno dei sei numeri è dispari lo devo inserire nell'array..... E COME CAVOLO LO SI FA?!?!?!?!?!?!
+- se uno dei sei numeri è dispari lo devo inserire nell'array
