@@ -7,18 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+    <!--all'interno di index.html creo un layout attraverso le classi bootstrap v5.3, in cui inserisco tre dive contententi rispettivamente una classe container, una clasee row e una classe col-12-->
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <!--all'interno della col-12 inserisco prima div contentente una classe card, la qual a sua volta conterrà una domanda rivolta all'utente ("Sei nella lista dei partecipanti della festa del grande Gatsby?") e un input di tipo testo in cui l'utente può digitare il proprio nome e cognome-->
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Sei nella lista dei partecipanti della festa del grande Gatsby?</h5>
                         <input  id="party_animal" type="text" placeholder="Nome e Cognome utente">
                     </div>
                 </div>
+                <!--sempre all'interno della col-12 inserico un bottone la cui funzione è di verificare, attraverso il file script.js, se l'utente è presente nella lista degli invitati oppure no;-->
                 <div class="button_area d-flex justify-content-center">
                     <div class="btn btn-sm btn-primary" id="check">Controllo</div>
                 </div>
+                <!--sempre all'interno della col-12 inserisco una altra card la cui funzione è dimostrare il risultato del controllo. Apparirà un messaggio diverso a seconda dell'esito del controllo-->
                 <div class="card">
                     <div class="card-body">
                         <div id="response" class="card-text"></div>
